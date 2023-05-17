@@ -1,0 +1,45 @@
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+
+  }
+  .button1{
+    display: none;
+  }
+  .todo-item:hover .button1{
+    display: block;
+    height:2rem;
+    width:2rem;
+    background-color: #4caf50;
+    color: white;
+
+    border-radius:12px;
+    border:1px solid #4caf50
+
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    outline: none;
+    border: 2px solid #ccc;
+  }
+  
+  .todo-item input[type="checkbox"]:checked {
+    background-color: #4caf50;;
+  }
+
+  
+  .todo-item button {
+    margin-left: auto;
+  }
+  
+  .text{
+    font-size: 1.5rem;
+  }
